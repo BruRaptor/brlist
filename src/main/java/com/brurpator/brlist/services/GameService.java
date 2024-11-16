@@ -7,8 +7,11 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.brurpator.brlist.dto.GameDTO;
+import com.brurpator.brlist.dto.GameListDTO;
 import com.brurpator.brlist.dto.GameMinDTO;
 import com.brurpator.brlist.entities.Game;
+import com.brurpator.brlist.entities.GameList;
+import com.brurpator.brlist.repositories.GameListRepository;
 import com.brurpator.brlist.repositories.GameRepository;
 
 @Service
